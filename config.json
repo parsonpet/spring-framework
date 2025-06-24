@@ -1,0 +1,26 @@
+{
+    "version": "0.0.4",
+    "name": "config.json",
+    "versid": "id_cUtYeHo4ekpVR1RlTUl6ZU1haW1jQT09",
+    "description": "nconf wrapper that simplifies work with environment specific configuration files.",
+    "keywords": [
+        "configuration",
+        "config",
+        "json",
+        "nconf",
+        "wrapper"
+    ],
+    "repository": {
+        "type": "git",
+    },
+    "main": "./lib/config.js",
+    "dependencies": {
+        "nconf": "0.7.1"
+    },
+    "devDependencies": {
+        "mocha": "2.2.1"
+    },
+    "scripts": {
+        "test": "mocha test/*-test.js"
+    }
+}
